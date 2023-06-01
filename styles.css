@@ -1,3 +1,9 @@
+/* variables */
+:root {
+    --brd_clr: rgba(128, 128, 128, 0.394);
+}
+
+/* default */
 body{
     margin: 0;
     padding: 0;
@@ -7,14 +13,16 @@ body{
     font-family: 'EB Garamond';
 }
 
+/* setts of navbar */
 header{
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.394);
+    border-bottom: 1px solid var(--brd_clr);
     display: flex;
     justify-content: space-between;
 }
 
+/* setting elements of navbar  */
 .logo{
     margin-left: 50px;
 }
@@ -38,4 +46,98 @@ a{
     justify-content: space-between;
     width: 170px;
     margin-right: 50px;
+}
+
+/* setting first block  */
+.greet{
+    height: 870px;
+    width: 100%;
+}
+
+.r_greet{
+    width: 50%;
+    float: right;
+    height: 870px;
+}
+
+.txt_greet{
+    /* background-color: blueviolet; */
+    width: 80%;
+    height: 450px;
+}
+
+.fx_greet{
+    width: 50%;
+    height: 870px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1_greet{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.lorem_greet{
+    font-size: 25px;
+}
+
+.lorem_lw_greet{
+    font-size: 18px;
+}
+.start{
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid var(--brd_clr);
+    font-size: 15px;
+    background-color: #fff;
+}
+
+/* second page  */
+
+.expl_1{
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid var(--brd_clr);
+}
+
+
+.sec_pg_img{
+    width: 33%;
+    height: 500px;
+    float: left;
+}
+
+.fx_txt_2pg{
+    width: 67%;
+    height: 500px; 
+    float: right;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.txt_2pg{
+    width: 80%;
+    height: 300px;
+}
+
+.h1_sec_pg{
+    font-size: 30px;
+}
+
+.txt_lw_2pg{
+    font-size: 18px;
+}
+
+/* third page  */
+.third_pg_img{
+    width: 33%;
+    height: 500px;
+    float: right;
 }
