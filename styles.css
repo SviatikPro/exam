@@ -141,3 +141,28 @@ a{
     height: 500px;
     float: right;
 }
+
+.frth_page{
+    height: 400px;
+    width: 100%;
+}
+
+.h1_frth_pg{
+    font-size: 30px;
+    border-top: 1px solid var(--brd_clr);
+    text-align: center;
+    line-height: 90px;
+    margin-top: 0;
+}
+
+.gallery{
+    width: 100%;
+    height: 372px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .img_4{
+    height: 350px;
+    padding: 0;
+} */
