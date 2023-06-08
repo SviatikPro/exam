@@ -185,7 +185,6 @@ a{
 }
 
 .fx{
-    border: 1px solid var(--brd_clr);
     width: 85%;
     height: 800px;
     display: flex;
@@ -196,5 +195,35 @@ a{
     height: 400px;
     width: 33%;
     float: left;
-    border: 1px solid var(--brd_clr);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.p{
+    width: 67%;
+}
+
+.bord1{
+    border-right: 1px solid var(--brd_clr);
+    border-bottom: 1px solid var(--brd_clr);
+}
+
+.bord2{
+    border-right: 1px solid var(--brd_clr);
+    border-bottom: 1px solid var(--brd_clr);
+}
+
+.bord3{
+    border-bottom: 1px solid var(--brd_clr);
+}
+
+.bord4{
+    border-right: 1px solid var(--brd_clr);
+}
+
+.bord5{
+    border-right: 1px solid var(--brd_clr);
 }
