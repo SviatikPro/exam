@@ -40,6 +40,8 @@ a{
     color: black;
 }
 
+.burg
+
 .rtop{
     font-size: 20px;
     display: flex;
@@ -61,7 +63,6 @@ a{
 }
 
 .txt_greet{
-    /* background-color: blueviolet; */
     width: 80%;
     height: 450px;
 }
@@ -155,6 +156,13 @@ a{
     margin-top: 0;
 }
 
+.left{
+    z-index: 10;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
 .gallery{
     width: 100%;
     height: 372px;
@@ -232,10 +240,11 @@ a{
 /* 6th page  */
 .sth_page{
     width: 100%;
-    height: 890px;
+    height: 990px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 1px solid var(--brd_clr);
 }
 
 .h1_sth_pg{
@@ -246,8 +255,8 @@ a{
 }
 
 .form{
-        width: 70%;
-    height: 630px;
+    width: 70%;
+    height: 650px;
     line-height: 30px;
 }
 
@@ -263,6 +272,7 @@ a{
 
 .lab_sm{
     width: 30%;
+    
 }
 
 .label{
@@ -286,4 +296,153 @@ a{
 
 .mess{
     margin-top: 25px;
+}
+
+.rt{
+    float: left;
+}
+
+.lt{
+    float: right;
+}
+
+.send{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid var(--brd_clr);
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.txt_ar{
+    width: 100%;
+}
+
+/* footer  */
+footer{
+    width: 100%;
+    height: 160px;
+}
+
+.box_f{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxs{
+    margin-top: 45px;
+    width: 290px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images_foot{
+    height: 40px;
+}
+
+.overall{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px){
+    .rtop{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: center; 
+    } 
+    .greet{
+        height: 700px;
+    }
+    .r_greet{
+        height: 700px;
+    }
+    .fx_greet{
+        align-items: normal;
+        margin-top: 50px;
+        height: 650px;
+    }
+    .lorem_greet{
+        font-size: 18px;
+    }
+    .sec_pg_img{ 
+        width: 50%; 
+        height: 500px; 
+        float: left; 
+    } 
+    .fx_txt_2pg{ 
+        width: 50%; 
+        height: 450px;  
+        align-items: normal;
+        margin-top: 40px;
+    } 
+    .p{ 
+        width: 50%; 
+    } 
+    .third_pg_img{ 
+        width: 50%; 
+        height: 500px; 
+        float: right; 
+    } 
+    .im_n1{ 
+        display: none; 
+    } 
+    .im_n2{ 
+        display: none; 
+    } 
+    .h1_sec_pg{ 
+        margin-top: 0; 
+        margin-bottom: 10px; 
+    } 
+    .fx{ 
+        width: 100%; 
+        height: 1600px; 
+        display: flex; 
+        flex-wrap: wrap; 
+        flex-direction: column;
+    } 
+    .fth_page{ 
+        width: 100%; 
+        height: 1328px; 
+    } 
+    .box{
+        width: 50%;
+    }
+    .bord3{
+        border-right: 1px solid var(--brd_clr);
+        border-bottom: 0;
+    }
+    
+    .bord4{
+        border-bottom: 1px solid var(--brd_clr);
+        border-right: 0;
+    }
+    
+    .bord5{
+        border-bottom: 1px solid var(--brd_clr);
+        border-right: 0;
+    }
+} 
+@media screen and (max-width: 600px){
+    .no{
+        display: none;
+    }
+    .lrtop{
+        height: 50px;
+        width: 50px;
+        border: 1px solid;
+        /* margin-right: 10px; */
+        border-radius: 5px;
+        display: flex;
+    }
 }
